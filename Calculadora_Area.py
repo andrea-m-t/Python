@@ -18,7 +18,7 @@ def proceso (entrada):
         print("Ingrese el valor de la Altura.")
         altura=float(input())
         calculo=((base*altura)/2)
-        print ("El área es" + calculo +".")
+        print ("El área es" + str(calculo) +".")
     
     if entrada == ("B" or "C"):
         print("Ingrese el valor de la Base.")
@@ -26,7 +26,7 @@ def proceso (entrada):
         print("Ingrese el valor de la Altura.")
         altura=float(input())
         calculo=base*altura
-        print ("El área es" + calculo +".")
+        print ("El área es" + str(calculo) +".")
     
     if entrada == ("D"):
         print("Ingrese el valor del 1er Diámetro.")
@@ -34,7 +34,7 @@ def proceso (entrada):
         print("Ingrese el valor del 2do Diámetro.")
         d_2=float(input())
         calculo=((d_1*d_2)/2)
-        print ("El área es" + calculo +".")
+        print ("El área es" + str(calculo) +".")
     
     if entrada == ("E"):
         print("Ingrese el valor del Radio")
