@@ -1,5 +1,5 @@
 # Python
-Con Visual Studio y Jupyter
+Visual Studio & Jupyter
 
 #### Principal Libraries
     
